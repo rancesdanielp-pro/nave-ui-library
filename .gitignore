@@ -19,7 +19,9 @@
 
 # production
 /build
+# Don't ignore packages/ui-library/dist - needed for deployment
 /dist
+!packages/ui-library/dist
 
 # misc
 .DS_Store
